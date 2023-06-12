@@ -1,9 +1,10 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #000f06;
 }
 .header {
-    background-color: #000804;
+    background-color: #000f06;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -16,7 +17,7 @@ body {
 }
 .menu__logo {
     font-size: 24px;
-    color: #046e39;
+    color: #ffffff;
     margin-top: 0;
 }
 .menu__row {
@@ -29,17 +30,17 @@ body {
 }
 .menu__link {
     text-decoration: none;
-    color: #046e39;
+    color: #ffffff;
     font-size: 18px;
     text-decoration: underline 0.15em rgba(255, 255, 255, 0);
     transition: text-decoration-color 350ms;
     text-underline-offset: 0.25em;
 }
 .menu__link:hover {
-    text-decoration-color: rgb(168, 7, 7);
+    text-decoration-color: rgb(7, 136, 168);
 }
 .header__text {
- color: #046e39;;
+ color: #ffffff;;
     font-size: 18px;
     flex-basis: 44%;
 }
@@ -55,7 +56,7 @@ body {
     flex-basis: 50%;
 }
 .header__heading {
-    color: #046e39;
+    color: #ffffff;
     font-size: 48px;
     font-weight: 800;
     margin-top: 0;
@@ -70,7 +71,7 @@ body {
     text-decoration: none;
     border-radius: 8px;
     border: none;
-    color: #E5E7EB;
+    color: #000e02;
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
@@ -83,23 +84,26 @@ body {
     gap: 2vh;
     height: 100%;
     padding-bottom: 10vh;
+    background-color:#000f06;
 }
 .main__heading {
     text-align: center;
     padding: 2vh;
     font-weight: 700;
     font-size: 36px;
-    color: #6b0628;
+    color: #ffffff;
+    background-color: #00331a;
 }
 .main__images img{
     border-style: solid;
-    border-color: #c827ce;
+    border-color: #ffffff;
     border-radius: 12px;
-    border-width: 2px;
+    border-width: 5px;
     height: 150px;
     width: 150px;
-    height: 20vh;
-    width: 20vh;
+    height: 30vh;
+    width: auto;
+    
 }
 
 .main__images {
@@ -107,9 +111,12 @@ body {
     flex-basis: 11%;
     text-align: center;
     padding-top: 1vh;
+    color: #ffffff;
+    
+        
 }
 .quote {
-    background-color: #801a77;
+    background-color: #01770b;
     padding: 10vh 53.3vh 10vh 53.3vh;
 }
 .quote__text {
@@ -130,8 +137,8 @@ body {
 
 .action {
     margin: 10vh 20vh;
-    background-color: #6d0f3e;
-    color: #ff0000;
+    background-color: #1cff07;
+    color: #ffffff;
     padding: 5vh 15vh;
     border-radius: 12px;
     display: flex;
@@ -154,19 +161,19 @@ body {
     text-decoration: none;
     border-radius: 8px;
     border: solid 2px;
-    border-color: #E5E7EB;
-    color: #E5E7EB;
+    border-color: #00ff40;
+    color: #00ff0d;
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
     background-color: #2b022b;
     padding: 10px;
-    width: 15vh;
+    width: auto;
 }
 
 footer {
-    color: #E5E7EB;
-    background-color: #1F2937;
+    color: #05ff50;
+    background-color: #000f06;
     text-align: center;
     padding-top: 4vh;
     padding-bottom: 4vh;
