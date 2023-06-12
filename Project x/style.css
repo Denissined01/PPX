@@ -99,15 +99,15 @@ body {
     border-color: #ffffff;
     border-radius: 12px;
     border-width: 5px;
-    height: 150px;
-    width: 150px;
-    height: 30vh;
+    height: 10px;
+    width: 10px;
+    height: 25vh;
     width: auto;
     
 }
 
 .main__images {
-    width: 9.5%;
+    width: auto;
     flex-basis: 11%;
     text-align: center;
     padding-top: 1vh;
