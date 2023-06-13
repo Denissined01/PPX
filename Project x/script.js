@@ -7,7 +7,7 @@ function addToCart() {
     var quantity = document.getElementById('quantity').value;
 
     var product = {
-        name: 'Easy_Pad',
+        name: 'Zum Warenkorb hinzugefügt',
         price: 600,
         quantity: parseInt(quantity)
     };

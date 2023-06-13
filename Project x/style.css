@@ -259,7 +259,7 @@ footer {
 .cart__items {
     list-style: none;
     padding: 0;
-    text-align: left;
+    text-align: center;
 }
 
 .cart__total {
