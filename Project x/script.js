@@ -7,8 +7,8 @@ function addToCart() {
     var quantity = document.getElementById('quantity').value;
 
     var product = {
-        name: 'Produktname',
-        price: 10,
+        name: 'Easy_Pad',
+        price: 600,
         quantity: parseInt(quantity)
     };
 
@@ -36,5 +36,5 @@ function updateCart() {
 }
 
 function checkout() {
-    // Hier können Sie weitere Logik implementieren, um den Checkout-Prozess durchzuführen
+    
 }
