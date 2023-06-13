@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 500;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #000f06;
 }
@@ -116,13 +116,13 @@ body {
         
 }
 .quote {
-    background-color: #01770b;
+    background-color: #00331a;
     padding: 10vh 53.3vh 10vh 53.3vh;
 }
 .quote__text {
     font-style: italic;
     font-size: 36px;
-    color: #1F2937;
+    color: #ffffff;
     text-align: center;
     font-weight: 300;
 }
@@ -131,13 +131,14 @@ body {
     font-weight: 700;
     font-style: normal;
     margin-top: 0;
-    padding-left: 60vh;
-    font-size: 22px;
+    padding-left: 0vh;
+    font-size: 12px;
+    
 }
 
 .action {
     margin: 10vh 20vh;
-    background-color: #1cff07;
+    background-color: #00331a;
     color: #ffffff;
     padding: 5vh 15vh;
     border-radius: 12px;
@@ -161,21 +162,28 @@ body {
     text-decoration: none;
     border-radius: 8px;
     border: solid 2px;
-    border-color: #00ff40;
-    color: #00ff0d;
+    border-color: #00331a;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
-    background-color: #2b022b;
+    background-color: #3882F6;
     padding: 10px;
     width: auto;
 }
 
 footer {
-    color: #05ff50;
+    color: #00331a;
     background-color: #000f06;
     text-align: center;
     padding-top: 4vh;
     padding-bottom: 4vh;
     font-size: 18px;
 }
+{img
+height: auto;
+widht:500px;
+}
+
+    
+    
